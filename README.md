@@ -1,6 +1,11 @@
 # HandySFX
 
 A real-time voice character VST plugin built in C++/JUCE. Six DSP presets with a live oscilloscope visualiser (inspired in Karen, of SpongeBob Squarepants) and full parameter control.
+## UI
+
+![HandySFX Interface](HandySFX.png)
+
+
 
 ## Voice Presets
 
@@ -21,6 +26,9 @@ A real-time voice character VST plugin built in C++/JUCE. Six DSP presets with a
 - APVTS parameter state (DAW automation ready)
 - Built with JUCE 8
 
+## Signal Chain
+
+![DSP Diagram](HandySFXDiagram.png)
 ## DSP Concepts
 
 - IIR filters (HPF, LPF, shelving)
