@@ -1,0 +1,19 @@
+# JUCE
+JuceLibraryCode/
+Builds/
+*.jucer.user
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+build/
+
+# macOS
+.DS_Store
+*.dSYM
+
+# VST
+*.vst
+*.vst3
+*.component
